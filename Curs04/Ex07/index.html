@@ -17,6 +17,462 @@
 
 <body>
 
+  <!-- top -->
+
+  <p>
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Home"
+    >Home</a> *
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Place Order"
+    ><b>Place Order</b></a> *
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Customer Service"
+    >Customer Service</a> *
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Contact"
+    >Contact</a>
+  </p>
+
+  <h1>Place Order</h1>
+
+  <p>
+    This is the <b>guest checkout</b>, thank you for your order!
+  </p>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+
+  <!-- products -->
+
+  <h2>Products</h2>
+
+  <p>
+    <img
+      src="images/mouse.jpg"
+      alt="mouse"
+    >
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Sterge"
+    >Sterge</a>
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Editeaza"
+    >Editeaza</a>
+  </p>
+  <hr>
+
+  <p>
+    <img
+      src="images/extension_chord.jpg"
+      alt="extension_chord"
+    >
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Sterge"
+    >Sterge</a>
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Editeaza"
+    >Editeaza</a>
+  </p>
+  <hr>
+
+  <p>
+    <img
+      src="images/phone.jpg"
+      alt="phone"
+    >
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Sterge"
+    >Sterge</a>
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Editeaza"
+    >Editeaza</a>
+  </p>
+  <hr>
+
+  <!-- order now -->
+
+  <h2>Order Now</h2>
+
+  <p>
+    On our website <i>no account is needed</i>.
+  </p>
+
+  <ol>
+    <li>
+      First we need some info about yourself. <b>Don't forget to provide a phone</b>.
+    </li>
+    <li>
+      Then we need your <i>real</i> shipping address.
+    </li>
+    <li>
+      Finally, your credit card information.
+    </li>
+  </ol>
+
+
+  <form>
+
+    <!-- personal info -->
+
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <!-- gender -->
+
+      <br>
+
+      <label for="">Title:</label>
+      <label for="male">Mr</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+      <label for="na">Unspecified</label>
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      ><br><br>
+
+      <!-- data -->
+
+      <label for="name">*Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        title="Name"
+        placeholder="Name"
+        required
+      ><br><br>
+
+      <label for="surname">*Surname:</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        title="Surname"
+        placeholder="Surname"
+        required
+      ><br><br>
+
+      <label for="email">*Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        title="Email"
+        placeholder="Email"
+        required
+      ><br><br>
+
+      <label for="phone">*Phone:</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        title="Phone"
+        placeholder="Phone"
+        required
+      >
+
+    </fieldset>
+
+
+    <!-- address -->
+
+    <fieldset>
+      <legend>Address</legend>
+
+      <br>
+
+      <label for="address-name">*Name:</label>
+      <input
+        type="text"
+        name="address-name"
+        id="address-name"
+        title="Name"
+        placeholder="Name"
+        required
+      ><br><br>
+
+      <label for="address-surname">*Surname:</label>
+      <input
+        type="text"
+        name="address-surname"
+        id="address-surname"
+        title="Surname"
+        placeholder="Surname"
+        required
+      ><br><br>
+
+      <label for="address-phone">*Phone:</label>
+      <input
+        type="tel"
+        name="address-phone"
+        id="address-phone"
+        title="Phone"
+        placeholder="Phone"
+        required
+      ><br><br>
+
+      <label for="address1">*Address Line 1:</label>
+      <input
+        type="text"
+        name="address1"
+        id="address1"
+        title="Address Line 1"
+        placeholder="Address Line 1"
+        required
+      ><br><br>
+
+      <label for="address2">Address Line 2:</label>
+      <input
+        type="text"
+        name="address2"
+        id="address2"
+        title="Address Line 2"
+        placeholder="Address Line 2"
+      ><br><br>
+
+      <label for="city">*City:</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        title="City"
+        placeholder="City"
+        required
+      ><br><br>
+
+      <label for="state">*State:</label>
+
+      <select
+        name="state"
+        id="state"
+        title="State"
+        required
+      >
+        <option value="">--selecteaza--</option>
+        <option value="transilvania">Transilvania</option>
+        <option value="tara-romaneasca">Tara Romaneasca</option>
+        <option value="moldova">Moldova</option>
+        <option value="dobrogea">Dobrogea</option>
+
+      </select><br><br>
+
+      <label for="postcode">*Postcode:</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        title="Postcode"
+        placeholder="Postcode"
+        required
+      ><br>
+    </fieldset>
+
+    <!-- card -->
+
+    <br>
+
+    <fieldset>
+      <legend>Card Information</legend>
+
+      <label for="card-number">*Card Number</label>
+      <input
+        type="text"
+        name="card-number"
+        id="card-number"
+        title="Card Number"
+        placeholder="Card Number"
+        required
+      ><br><br>
+
+      <label for="card-name">*Name on card</label>
+      <input
+        type="text"
+        name="card-name"
+        id="card-name"
+        title="Name on card"
+        placeholder="Name on card"
+        required
+      ><br><br>
+
+      <label for="card-expiry-month">*Expiry month</label>
+      <select
+        name="card-expiry-month"
+        id="card-expiry-month"
+        title="Expiry month"
+        required
+      >
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+      </select>
+
+      <label for="card-expiry-year"> *Expiry year</label>
+      <select
+        name="card-expiry-year"
+        id="card-expiry-year"
+        title="Expiry year"
+        required
+      >
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+      </select><br><br>
+
+      <label for="card-cvv">*Card CVV</label>
+      <input
+        type="text"
+        name="card-cvv"
+        id="card-cvv"
+        title="Card CVV"
+        placeholder="CVV"
+        required
+      >
+
+      <p>
+        <i>We do not store credit card information!</i>
+      </p>
+    </fieldset>
+
+    <!-- form controls -->
+
+    <br>
+
+    <fieldset>
+      <legend>Form Controls</legend>
+
+      <input
+        type="checkbox"
+        name="terms"
+        id="terms"
+        title="Terms and Conditions"
+        required
+      >
+      <label for="terms">*You are required to agree to the <a
+          href="/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Terms and Conditions"
+        >terms and conditions</a></label><br><br>
+
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+        title="Subscribe"
+      >
+      <label for="subscribe">Can we send you emails?</label><br><br>
+
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+        title="GDPR consent"
+      >
+      <label for="gdpr-consent">GDPR generic consent?</label><br><br>
+
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >PLACE ORDER</button>
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset</button>
+    </fieldset>
+
+  </form>
+
+  <!-- bottom -->
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+
+  <p>
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Home"
+    >Home</a> *
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Place Order"
+    ><b>Place Order</b></a> *
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Customer Service"
+    >Customer Service</a> *
+    <a
+      href="/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Contact"
+    >Contact</a>
+  </p> <br><br><br>
 
   <div
     class="pixeltab-host"
