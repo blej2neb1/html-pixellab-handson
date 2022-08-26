@@ -1,0 +1,45 @@
+p i{
+  color: red;
+}
+
+a {
+  color: green;
+}
+
+.line{
+  text-decoration: underline;
+}
+
+.links a{
+text-decoration: none;
+}
+
+a[href^="http://"]
+{
+  color: red;
+}
+
+p .line {
+  color: grey;
+}
+
+b {
+  text-decoration: underline;
+  color: purple;
+}
+
+.odd .line {
+  color: blue;
+}
+
+.odd i {
+  text-decoration: underline;
+}
+
+a[href*=".com"]
+{
+  color: black;
+}
+/* problema aici, nu se fac negre. E ceva diferit fata de cel de sus, cu "http://"? */
+
+/* edit: rezolvat, mi-a spus pixeltabul ca trebuie '*' in loc de '^'. Care e diferenta, ce face fiecare? */
