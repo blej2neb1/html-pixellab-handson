@@ -1,0 +1,18 @@
+.my-div {
+width: 300px;
+height: 202px;
+background-color: red;
+border: 1px solid green;
+/* recipe for centering blocks */
+margin: 0 auto;
+box-shadow: 1px 1px 5px green;
+}
+
+.blue {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: blue;
+  padding: 15px;
+  box-shadow: inset 2px 2px 10px black;
+}
